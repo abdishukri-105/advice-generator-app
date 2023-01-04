@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/2023-01-04%20(3).png)
+![](./images/2023-01-05%20(2).png)
 
 
 
