@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans&family=Manrope:wght@800&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Rubik+Vinyl&family=Space+Grotesk:wght@500&family=Unbounded:wght@300&display=swap'); 
+
+/* basic settings */
+
+:root {
+    
+     /* Primary */
+
+--LightCyan: hsl(193, 38%, 86%);
+--NeonGreen: hsl(150, 100%, 66%);
+
+/* Neutral */
+
+--GrayishBlue: hsl(217, 19%, 38%);
+--DarkGrayishBlue: hsl(217, 19%, 24%);
+--DarkBlue: hsl(218, 23%, 16%);
+  
+  }
+  
+  
+  /* css reset */
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+    font-size: 28px;
+    
+    
+  }
+
+  .main {
+    background-color: var(--DarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+
+  .container {
+      background-color: var(--DarkGrayishBlue);
+      border-radius: 0.8rem;
+   
+  }
+
+  .header {
+     display: flex;
+     justify-content: center;
+     color: var(--LightCyan);
+     margin: 1rem;
+     color: var(--NeonGreen);
+  }
+
+  .content {
+     text-align: center;
+     margin: 1rem;
+     color: var(--LightCyan);
+  }
+
+.divider-line {
+    margin: 1rem;
+
+}
+
+.pictures {
+   object-fit: cover;
+   width: 100%;;
+}
+
+.dice-button {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+  
+}
+
+.dice-button img {
+     width: 100;
+     object-fit: cover;
+     margin-bottom: -1.5rem;
+     width: 12%;
+    padding: 1rem;
+    background-color: var(--NeonGreen);
+    border-radius: 50%;
+}
+
+.dice-button img:hover {
+    box-shadow: 5px 5px 5px 5px var(--NeonGreen);
+    
+    
+    /* -webkit-box-shadow: -1px 3px 15px 25px var(--NeonGreen);
+   -moz-box-shadow: -1px 3px 15px 25px var(--NeonGreen);
+   box-shadow: 15px 15px 5px 5px var(--NeonGreen); */
+   
+    
+}
