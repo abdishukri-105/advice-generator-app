@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
            
            const adviceId = document.querySelector("#adviceNo")
            adviceId.innerHTML = data.slip.id
+
       }
 
 })
+
+
+
+      
