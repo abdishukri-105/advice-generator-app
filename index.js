@@ -4,13 +4,20 @@ const url = "https://api.adviceslip.com/advice"
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // fetch data
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        console.log(data)
-        renderAdvice(data);
-      } )
+    // fetch data on click dice button
+
+    const diceButton = document.querySelector(".dice-button")
+    
+    diceButton.addEventListener('click', ()=> {
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          console.log(data)
+          renderAdvice(data);
+        } )
+    })
+
+   
     
 // render data on ui
       const renderAdvice = (data) =>{
